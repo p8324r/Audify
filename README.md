@@ -45,7 +45,7 @@ Starts the backend app at [http://localhost:5000](http://localhost:5000).\
 This will automatically refresh the server application if any live changes are made in the server.js file.
 
 #### Note: On windows powershell, the command `Set-ExecutionPolicy Unrestricted -Scope Process` may be required for the `nodemon server.js` command.
-#### you can see your current ExecutionPolicy by `get-ExecutionPolicy`
+#### you can see your current `ExecutionPolicy` by `get-ExecutionPolicy`
 
 ### `Ctrl-C`
 To terminate the process.
