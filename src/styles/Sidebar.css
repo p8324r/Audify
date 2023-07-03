@@ -1,0 +1,32 @@
+.Sidebar{
+    width: min-content;
+    margin: 5px;
+    background-color: rgb(130, 174, 255);
+    
+}
+
+.Sidebar .wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: max-content;
+}
+
+.Sidebar .wrapper div{
+    margin: 5%;
+    font-size: 30px;
+    padding: 5px;
+    &:hover{
+        background-color: rgb(210, 137, 255);
+        border-top:2px solid black;
+        border-bottom: 2px solid black;
+    }
+    cursor: pointer;
+}
+
+
+
+.Sidebar .wrapper .empty{
+    flex-grow: 1;
+    display: none;
+}

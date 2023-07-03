@@ -1,0 +1,45 @@
+.UserDashboard .wrap .maincont{
+    display: flex;
+    background-color: #f3f3f3;
+    height: 90vh;
+}
+
+.UserDashboard .wrap .maincont .pagedesc{
+    flex-grow: 1;
+    text-align: center;
+    height: fit-content;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 3px #444;
+}
+
+.inwrap{
+    flex-grow: 1;
+}
+
+.addVid{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 20px ;
+    cursor: pointer;
+    
+}
+
+.inp{
+    color:white;
+    background-color: black;
+    font-size: 15px;
+}
+
+.renderwrap{
+    height: minmax(70vh,auto);
+}
+
+.datarender{
+    display: grid;
+    grid-template-columns: 405px 405px;
+    gap: 15px;
+}

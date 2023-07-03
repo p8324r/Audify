@@ -1,0 +1,91 @@
+.maincont{
+    display: flex;
+    height: 95vh;
+}
+
+.maincont .wrap{
+    display: flex;
+    flex-grow: 1;
+}
+
+
+.vidwrap{
+    flex-grow: 1;
+    background-color: lightskyblue;
+    overflow: scroll;
+}
+
+.audwrap{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+.audwrap div{
+    flex-grow: 1;
+    display:flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: lightsteelblue;
+}
+.audframe{
+    border: 2px solid lightcoral
+}
+.vidframe{
+    height: 420px;
+    background-color: rgb(196, 132, 255);
+    border: 3px solid burlywood;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.vidframe iframe{
+    margin: auto;
+}
+
+/* .extbtn{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 5px;
+} */
+
+.extbtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #98a1f8;
+    color: #111;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border: 2px solid #555;
+    &:hover{
+        box-shadow: 0px 0px 5px black;
+    }
+  }
+
+.selectextn{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.selectextn select{
+    background-color: white;
+    color: black;
+    width: 75px;
+    border-radius: 12px;
+    cursor:pointer;
+    font-size: 20px;
+    &:hover{
+        box-shadow: 0px 0px 10px rgb(106, 192, 221) ;
+    }
+}

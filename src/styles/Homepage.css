@@ -1,0 +1,88 @@
+.homepage{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(94, 247, 188);
+    font-size: 30px;
+    height: 90vh;
+}
+
+.homepage .toprow{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.homepage .bottomrow{
+    display: flex;
+}
+
+.homepage .toprow .welcomewrap{
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage .toprow .welcomewrap .empty{
+    flex-grow: 1;
+}
+
+.homepage .toprow .welcomewrap .welcome span{
+    display: block;
+    font-size: 40px;
+}
+
+.homepage .toprow .feature{
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px ;
+    text-align: left;
+}
+
+.homepage .toprow .feature .empty{
+    flex-grow: 1;
+}
+
+
+.homepage .toprow .featurelist{
+    grid-column: span 3;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.homepage .toprow .featurelist .empty{
+    flex-grow: 1;
+}
+
+.homepage .bottomrow {
+    height: 150px;
+}
+
+.homepage .bottomrow .empty{
+    flex-grow: 2;
+    border: none;
+}
+
+.homepage .bottomrow .signup{
+    flex-grow: 2;
+}
+
+.homepage .bottomrow .signup .link{
+    text-align: center;
+}
+
+#btn1{
+    background-color: #999;
+    cursor: pointer;
+    border-radius: 15px;
+    width: max-content;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    &:hover{
+        box-shadow: 0px 0px 5px rgb(120, 120, 120);
+    }
+}

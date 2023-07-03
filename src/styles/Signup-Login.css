@@ -1,0 +1,112 @@
+.SignupLogin {
+    display: flex;
+}
+
+.SignupLogin .Empty{
+    flex-grow: 4;
+}
+
+.SignupLogin div{
+    flex-grow: 1;
+}
+
+.SignupLogin .selwrap{
+    display: flex;
+}
+
+.SignupLogin .selwrap div{
+    border: 2px solid #eee;
+    background-color: #aaa;
+    border-radius: 5px;
+    width: 100px;
+    color: #fff;
+    &:hover{
+        box-shadow: 0px 0px 3px #545454;
+    }
+} 
+
+
+.SignupLogin .compwrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.SignupLogin .inputwrap{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.SignupLogin .compwrap .topempty{
+    min-height: 100px;
+    font-size: 50px;
+    font-weight: 600;
+    text-align:center;
+    padding-top: 25px;
+}
+
+.SignupLogin .compwrap .selwrap{
+    min-height: 50px;
+}
+
+.SignupLogin .compwrap .selwrap div{
+    padding: 10px 0;
+    line-height: 50px;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.SignupLogin .compwrap .inputwrap{
+    min-height: 100px;
+    padding: 0 10px;
+    box-shadow: 0px 0px 5px #545454;
+    font-size: 20px;
+    background-color: #b6e1ff;
+}
+
+.SignupLogin .compwrap .inputwrap label{
+    margin-top: 15px;
+}
+
+.SignupLogin .compwrap .inputwrap input{
+    width: 250px;
+    align-self: center;
+}
+
+.SignupLogin .compwrap .inputwrap button{
+    cursor: pointer;
+    margin: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.SignupLogin .compwrap .orwrap{
+    display: flex;
+}
+
+.SignupLogin .compwrap .orwrap div{
+    flex-grow: 2;
+    border: 1px solid black;
+    height: 0;
+    margin: auto;
+}
+
+.SignupLogin .compwrap .orwrap p{
+    flex-grow: 1;
+}
+
+.SignupLogin .compwrap .bottomempty{
+    min-height: 150px;
+}
+
+.SignupLogin .compwrap .signinusingGoogle button{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 0px 4px #545454;
+    cursor: pointer;
+    font-size: 20px;
+    &:hover{
+        box-shadow: 0px 0px 5px rgb(106, 220, 255);
+    }
+}
