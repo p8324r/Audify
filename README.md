@@ -12,16 +12,16 @@ For the extraction of audio from video, Node libraries such as ffmpeg and fluent
 ## Firebase Services
 
 In the frontend part (i.e in the top directory) `firebase` is required, whereas for backend (i.e in `NodeServer` directory) `firebase-admin` is required.\
-These will be automatically installed by the `npm install` command.\
+These will be automatically installed by the `npm install` command.
 
-You need a Google Account for the following.\
+You need a Google Account for the following.
 
 ### Firebase Authentication
 
 #### For the client side 
-Follow the steps given here: [https://firebase.google.com/docs/web/setup](Add Firebase to your JavaScript project) to create a project in firebase.\
+Follow the steps given here: [https://firebase.google.com/docs/web/setup](Add Firebase to your JavaScript project) to create a project in firebase.
 
-While registering, the configuration object will be provided, which should be put into the `src/firebase-config.js` file.\
+While registering, the configuration object will be provided, which should be put into the `src/firebase-config.js` file.
 
 #### For the server side
 Follow the steps given here: [https://firebase.google.com/docs/admin/setup#prerequisites](Add Firebase-Admin SDK to your JavaScript project) to create service account.\
