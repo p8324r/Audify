@@ -32,7 +32,7 @@ The path to the file must be provided in the file.(Marked in the file).
 
 Follow the steps given here: [Get started with Cloud Storage on Web](https://firebase.google.com/docs/storage/web/start).\
 For the backend, you may refer this : [Introduction to the Admin Cloud Storage API](https://firebase.google.com/docs/storage/admin/start)\
-or simply add: `'storageBucket' : '<BUCKET_NAME>.appspot.com>'`, same as the frontend.
+or simply add: `'storageBucket' : '<BUCKET_NAME>.appspot.com'`, same as the frontend.
 
 
 ## For the frontend
