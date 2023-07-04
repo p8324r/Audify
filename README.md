@@ -19,19 +19,19 @@ You need a Google Account for the following.
 ### Firebase Authentication
 
 #### For the client side 
-Follow the steps given here: [https://firebase.google.com/docs/web/setup](Add Firebase to your JavaScript project) to create a project in firebase.
+Follow the steps given here: [Add Firebase to your JavaScript project](https://firebase.google.com/docs/web/setup) to create a project in firebase.
 
 While registering, the configuration object will be provided, which should be put into the `src/firebase-config.js` file.
 
 #### For the server side
-Follow the steps given here: [https://firebase.google.com/docs/admin/setup#prerequisites](Add Firebase-Admin SDK to your JavaScript project) to create service account.\
+Follow the steps given here: [Add Firebase-Admin SDK to your JavaScript project](https://firebase.google.com/docs/admin/setup#prerequisites) to create service account.\
 During the setup process, A private key for the service account will be generated which has to be linked to the `NodeServer\firebase-config.js` file.\
 The path to the file must be provided in the file.(Marked in the file).
 
 ### Firebase Storage
 
-Follow the steps given here: [https://firebase.google.com/docs/storage/web/start](Get started with Cloud Storage on Web).\
-For the backend, you may refer this : [https://firebase.google.com/docs/storage/admin/start](Introduction to the Admin Cloud Storage API)\
+Follow the steps given here: [Get started with Cloud Storage on Web](https://firebase.google.com/docs/storage/web/start).\
+For the backend, you may refer this : [Introduction to the Admin Cloud Storage API](https://firebase.google.com/docs/storage/admin/start)\
 or simply add: `'storageBucket' : '<BUCKET_NAME>.appspot.com>'`, same as the frontend.
 
 
