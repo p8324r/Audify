@@ -26,7 +26,7 @@ While registering, the configuration object will be provided, which should be pu
 #### For the server side
 Follow the steps given here: [https://firebase.google.com/docs/admin/setup#prerequisites](Add Firebase-Admin SDK to your JavaScript project) to create service account.\
 During the setup process, A private key for the service account will be generated which has to be linked to the `NodeServer\firebase-config.js` file.\
-The path to the file must be provided in the file.(Marked in the file).\ 
+The path to the file must be provided in the file.(Marked in the file).
 
 ### Firebase Storage
 
@@ -42,7 +42,7 @@ In the project directory, you can run:
 ### `npm install`
 
 This will install all the required dependencies for the client side listed in package.json.\
-After the above step, first complete the Firebase part.\
+After the above step, first complete the Firebase part.
 
 ### `npm start` or `npm run`
 Runs the app in the development mode.\
@@ -62,7 +62,7 @@ First cd into the NodeServer directory
 
 ### `npm install` 
 This will install all the required dependencies for the server side listed in package.json in this directory.
-After the above step, first complete the Firebase part.\
+After the above step, first complete the Firebase part.
 
 ### (OPTIONAL) `node server.js`
 Starts the backend app at [http://localhost:5000](http://localhost:5000).\
