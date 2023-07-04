@@ -1,4 +1,5 @@
 const admin = require("firebase-admin");
+// Replace the text in the 'require' below, with the path of your File.
 const serviceAccount = require("./PrivateKey/ServiceAccount.json");
 const { getStorage } = require('firebase-admin/storage');
 
