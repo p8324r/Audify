@@ -4,9 +4,9 @@ const { getStorage } = require('firebase-admin/storage');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  storageBucket: 'audify-1094b.appspot.com'
+  storageBucket: '<YOUR_FIREBASE_STORAGE_BUCKET_LINK>'
 });
 
-const bucketname = 'audify-1094b.appspot.com';
+const bucketname = '<YOUR_FIREBASE_STORAGE_BUCKET_LINK>';
 const bucket = getStorage().bucket();
 module.exports = {admin,bucket,bucketname};
